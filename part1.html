@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+	<script src="https://d3js.org/d3.v4.js"></script>
+	<script src="output_30_sample_best_model.js"></script>
+  <script src="lodash.js"></script>
+	<style>
+      td {
+        white-space: nowrap;
+      }
+    </style>
+	<title>Assignment3 Part1</title>
+</head>
+<body>
+	<div id="main_div" />
+
+    <select id="mySelect" onchange="table()">
+      <option value="gold">GOLD</option>
+      <option value="predicted">PREDICTED</option>
+       <option value="sample">SAMPLE</option>
+      <!-- <option value="no_relation">no_relation</option> -->
+ <option value="per:title">per:title</option>
+ <option value="org:top_members/employees">org:top_members/employees</option>
+ <option value="per:employee_of">per:employee_of</option>
+ <option value="org:alternate_names">org:alternate_names</option>
+ <option value="org:country_of_headquarters">org:country_of_headquarters</option>
+ <option value="per:countries_of_residence">per:countries_of_residence</option>
+ <option value="org:city_of_headquarters">org:city_of_headquarters</option>
+ <option value="per:cities_of_residence">per:cities_of_residence</option>
+ <option value="per:age">per:age</option>
+ <option value="per:stateorprovinces_of_residence">per:stateorprovinces_of_residence</option>
+ <option value="per:origin">per:origin</option>
+ <option value="org:subsidiaries">org:subsidiaries</option>
+ <option value="org:parents">org:parents</option>
+ <option value="per:spouse">per:spouse</option>
+ <option value="org:stateorprovince_of_headquarters">org:stateorprovince_of_headquarters</option>
+ <option value="per:children">per:children</option>
+ <option value="per:other_family">per:other_family</option>
+ <option value="per:alternate_names">per:alternate_names</option>
+ <option value="org:members">org:members</option>
+ <option value="per:siblings">per:siblings</option>
+ <option value="per:schools_attended">per:schools_attended</option>
+ <option value="per:parents">per:parents</option>
+ <option value="per:date_of_death">per:date_of_death</option>
+ <option value="org:member_of">org:member_of</option>
+ <option value="org:founded_by">org:founded_by</option>
+ <option value="org:website">org:website</option>
+ <option value="per:cause_of_death">per:cause_of_death</option>
+ <option value="org:political/religious_affiliation">org:political/religious_affiliation</option>
+ <option value="org:founded">org:founded</option>
+ <option value="per:city_of_death">per:city_of_death</option>
+ <option value="org:shareholders">org:shareholders</option>
+ <option value="org:number_of_employees/members">org:number_of_employees/members</option>
+ <option value="per:date_of_birth">per:date_of_birth</option>
+ <option value="per:city_of_birth">per:city_of_birth</option>
+ <option value="per:charges">per:charges</option>
+ <option value="per:stateorprovince_of_death">per:stateorprovince_of_death</option>
+ <option value="per:religion">per:religion</option>
+ <option value="per:stateorprovince_of_birth">per:stateorprovince_of_birth</option>
+ <option value="per:country_of_birth">per:country_of_birth</option>
+ <option value="org:dissolved">org:dissolved</option>
+ <option value="per:country_of_death">per:country_of_death</option>
+    </select>
+
+	<script src="part1.js"></script>
+</body>
+</html>
